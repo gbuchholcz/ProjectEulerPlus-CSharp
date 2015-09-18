@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,12 +44,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Challenges\Euler1.cs" />
+    <Compile Include="Challenges\Euler10.cs" />
+    <Compile Include="Challenges\Euler11.cs" />
+    <Compile Include="Challenges\Euler12.cs" />
+    <Compile Include="Challenges\Euler13.cs" />
+    <Compile Include="Challenges\Euler14.cs" />
+    <Compile Include="Challenges\Euler15.cs" />
+    <Compile Include="Challenges\Euler16.cs" />
+    <Compile Include="Challenges\Euler17.cs" />
+    <Compile Include="Challenges\Euler18.cs" />
+    <Compile Include="Challenges\Euler19.cs" />
+    <Compile Include="Challenges\Euler2.cs" />
+    <Compile Include="Challenges\Euler20.cs" />
+    <Compile Include="Challenges\Euler22.cs" />
+    <Compile Include="Challenges\Euler3.cs" />
+    <Compile Include="Challenges\Euler34.cs" />
+    <Compile Include="Challenges\Euler4.cs" />
+    <Compile Include="Challenges\Euler5.cs" />
     <Compile Include="Challenges\Euler55.cs" />
+    <Compile Include="Challenges\Euler6.cs" />
+    <Compile Include="Challenges\Euler7.cs" />
+    <Compile Include="Challenges\Euler75.cs" />
+    <Compile Include="Challenges\Euler76.cs" />
+    <Compile Include="Challenges\Euler77.cs" />
+    <Compile Include="Challenges\Euler79.cs" />
+    <Compile Include="Challenges\Euler8.cs" />
+    <Compile Include="Challenges\Euler81.cs" />
+    <Compile Include="Challenges\Euler9.cs" />
+    <Compile Include="Challenges\Template.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
