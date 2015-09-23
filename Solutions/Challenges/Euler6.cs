@@ -24,7 +24,7 @@ namespace Solutions.Challenges
                 long N = long.Parse(input.ReadLine());
 
                 long a = ((1 + N) * N / 2) * ((1 + N) * N / 2);
-                long b = Enumerable.Range(1, (int)N).Select(x => (long)x).Aggregate(0L, (acc, e) => acc + e * e);
+                long b = N * (N + 1) * (2 * N + 1) / 6;
 
                 output.WriteLine(a - b);
             }
