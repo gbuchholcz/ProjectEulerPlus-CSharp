@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -76,7 +77,12 @@
     <Compile Include="Challenges\Euler36.cs" />
     <Compile Include="Challenges\Euler37.cs" />
     <Compile Include="Challenges\Euler38.cs" />
+    <Compile Include="Challenges\Euler39.cs" />
     <Compile Include="Challenges\Euler4.cs" />
+    <Compile Include="Challenges\Euler40.cs" />
+    <Compile Include="Challenges\Euler41.cs" />
+    <Compile Include="Challenges\Euler42.cs" />
+    <Compile Include="Challenges\Euler43.cs" />
     <Compile Include="Challenges\Euler5.cs" />
     <Compile Include="Challenges\Euler55.cs" />
     <Compile Include="Challenges\Euler6.cs" />
