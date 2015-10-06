@@ -84,6 +84,7 @@
     <Compile Include="Challenges\Euler42.cs" />
     <Compile Include="Challenges\Euler43.cs" />
     <Compile Include="Challenges\Euler44.cs" />
+    <Compile Include="Challenges\Euler46.cs" />
     <Compile Include="Challenges\Euler47.cs" />
     <Compile Include="Challenges\Euler5.cs" />
     <Compile Include="Challenges\Euler55.cs" />
