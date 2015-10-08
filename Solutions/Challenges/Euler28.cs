@@ -23,20 +23,15 @@ namespace Solutions.Challenges
             for (int T = int.Parse(input.ReadLine()); T > 0; --T)
             {
                 long N = long.Parse(input.ReadLine());
-                BigInteger mod = new BigInteger(1000000007);
-                BigInteger i = new BigInteger((N - 1) >> 1);
-                BigInteger i2 = BigInteger.Pow(i, 2);
-                BigInteger i3 = BigInteger.Pow(i, 3);
-                BigInteger sum_i = BigInteger.Divide(BigInteger.Add(i2, i), 2);
-                BigInteger sum_i2 = BigInteger.Divide(BigInteger.Add(BigInteger.Add(BigInteger.Multiply(i3, 2), BigInteger.Multiply(i2, 3)), i), 6);
-
-                BigInteger result = BigInteger.Remainder(
-                                        BigInteger.Add(
-                                            BigInteger.Add(
-                                                BigInteger.Add(BigInteger.Multiply(i, 4), BigInteger.Multiply(sum_i, 4))
-                                                , BigInteger.Multiply(sum_i2, 16))
-                                            , 1)
-                                        , mod);
+                long mod = 1000000007L;
+                long invmod_6 = 166666668L;
+                long invmod_2 = 500000004L;
+                long i = ((N - 1) / 2) % mod;
+                long i2 = i * i % mod;
+                long i3 = i2 * i % mod;
+                long sum_i = (i2 + i) % mod * invmod_2 % mod;
+                long sum_i2 = ((i2 * 3 % mod + i3 * 2 % mod) % mod + i) % mod * invmod_6 % mod;
+                long result = (((i * 4 % mod + sum_i * 4 % mod) % mod + sum_i2 * 16 % mod) % mod + 1) % mod;
 
                 output.WriteLine(result.ToString());
 
