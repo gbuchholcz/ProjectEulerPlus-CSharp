@@ -8,7 +8,7 @@ namespace Solutions
     {
         static void Main(string[] args)
         {
-            Euler39.Test();
+            Euler49.Test();
             WaitOnExit();
         }
 
