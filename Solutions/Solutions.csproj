@@ -88,6 +88,7 @@
     <Compile Include="Challenges\Euler47.cs" />
     <Compile Include="Challenges\Euler48.cs" />
     <Compile Include="Challenges\Euler49.cs" />
+    <Compile Include="Challenges\Euler50.cs" />
     <Compile Include="Challenges\Euler5.cs" />
     <Compile Include="Challenges\Euler55.cs" />
     <Compile Include="Challenges\Euler6.cs" />
@@ -99,7 +100,6 @@
     <Compile Include="Challenges\Euler8.cs" />
     <Compile Include="Challenges\Euler81.cs" />
     <Compile Include="Challenges\Euler9.cs" />
-    <Compile Include="Challenges\Template.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
